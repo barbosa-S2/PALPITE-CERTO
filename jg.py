@@ -36,7 +36,7 @@ def jogo_adivinhacao():
     tentativas = 0
     max_tentativas = dificuldade()
 
-    while tentativas <= max_tentativas:
+    while tentativas < max_tentativas:
         palpite = int(input('\nTente á sorte: '))
         
         if palpite == numero_secreto:
@@ -46,6 +46,7 @@ def jogo_adivinhacao():
                 jogo_adivinhacao()
             else:
                 print('\nObrigado por jogar, volte sempre!')
+                break
         elif palpite > numero_secreto:
             print('\nTENTE UM NUMERO MENOR!')
         else:
@@ -53,13 +54,14 @@ def jogo_adivinhacao():
 
         tentativas += 1
 
-    if tentativas == max_tentativas:
+    if tentativas >= max_tentativas:
         print(f'fim de Jogo! O numero era {numero_secreto}.')
         opcao = int(input('\nPara jogar novamente digite (1): '))
         if opcao == 1:
             jogo_adivinhacao()
         else:
             print('\nObrigado por jogar, volte sempre!')
+            
 
 #jogo pronto para ser executado, divirta-se!!! 
 jogo_adivinhacao()
