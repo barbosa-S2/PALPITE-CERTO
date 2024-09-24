@@ -1,4 +1,4 @@
-# Jogo de Adivinhação
+# PALPITE CERTO
 # Descrição
 Este é um simples jogo de adivinhação onde o jogador tenta adivinhar um número secreto gerado aleatoriamente pelo computador. O jogo oferece três níveis de dificuldade, cada um com um número diferente de tentativas permitidas.
 
