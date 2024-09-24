@@ -4,7 +4,7 @@ import random as rd
 #obas vindas e escolha de dificuldade do jogador
 def boasVindas():
     print('\n_____________________________________________')
-    print('\n|---SEJA BEM VINDO AO JGO DE ADIVINHAÇÃO----|')
+    print('\n|---SEJA BEM VINDO AO PALPITE CERTO-------|')
     print('|---DEFINA A DIFICULDADE QUE DESEJA JOGAR---|')
     print('|---------------1 FÁCIL---------------------|')
     print('|---------------1 MÉDIO---------------------|')
